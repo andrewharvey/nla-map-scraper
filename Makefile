@@ -76,4 +76,4 @@ all :
 # download those .sid files
 10_nla_map_sids_download :
 	mkdir -p 19-sids
-	wget --no-clobber -directory-prefix=19-sids -i 18-sid-filenames.txt
+	wget --no-clobber --directory-prefix=19-sids -i 18-sid-filenames.txt
